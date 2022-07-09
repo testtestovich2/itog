@@ -1,0 +1,18 @@
+:root{
+  --color-bg: #1B1A1B;
+  --color-text: #fff;
+  --color-text-dark: #000;
+  --color-text-black: #1C1A1A;
+
+  --color-btn-main: #CD06FF;
+  --color-btn-default: #840AA3;
+  --color-btn-hover: #6C0287;
+  --color-btn-hover-purple: #EADEED;
+  --color-btn-active: #640AA3;
+
+  --bg-purple: #440F51;
+
+  --bg-footer-gradient: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+  --bg-reviews-gradient: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
+}
+

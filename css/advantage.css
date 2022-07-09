@@ -1,0 +1,136 @@
+.advantage__title{
+  margin: 0 auto;
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+
+.advantage__container{
+  padding: 7px 0;
+}
+
+.advantage__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 40px 20px;
+}
+
+.advantage__item{
+  display: flex;
+  padding-top: 170px;
+  padding-left: 40px;
+  min-height: 228px;
+  flex-basis: 380px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.advantage__item:nth-child(2),
+.advantage__item:nth-child(5){
+  transform: translateY(70px);
+}
+
+.advantage__item:hover{
+  transform: scale(1.1);
+}
+
+.advantage__item_1{
+  background-image: url("../img/advantage/1.jpg");
+}
+
+.advantage__item_2{
+  background-image: url("../img/advantage/2.jpg");
+}
+
+.advantage__item_3{
+  background-image: url("../img/advantage/3.jpg");
+}
+
+.advantage__item_4{
+  background-image: url("../img/advantage/4.jpg");
+}
+
+.advantage__item_5{
+  background-image: url("../img/advantage/5.jpg");
+}
+
+.advantage__item_6{
+  background-image: url("../img/advantage/6.jpg");
+}
+
+.advantage__text{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@media (max-width: 1200px) {
+  .advantage{
+    padding-top: 27px;
+    padding-bottom: 25px;
+  }
+
+  .advantage__title{
+    max-width: 521px;
+  }
+
+  .advantage__list{
+    justify-content: center;
+  }
+
+  .advantage__item{
+    flex-basis: 287px;
+    min-height: 172px;
+    max-height: 172px;
+
+    padding-top: 109px;
+    padding-left: 10px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 923px) {
+  .advantage__item:nth-child(2),
+  .advantage__item:nth-child(5){
+    transform: none;
+  }
+
+  .advantage__item{
+    flex-basis: 334px;
+    min-height: 200px;
+    max-height: 200px;
+
+    padding-top: 140px;
+  }
+}
+
+@media (max-width: 687px) {
+  .advantage__list{
+    gap: 10px;
+  }
+
+  .advantage__title{
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .advantage__item{
+    flex-basis: 135px;
+
+    min-height: 75px;
+    max-height: 75px;
+
+    padding-top: 40px;
+  }
+
+  .advantage__text{
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
