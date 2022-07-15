@@ -36,6 +36,12 @@
   transform: scale(1.1);
 }
 
+.advantage__item:nth-child(2):hover,
+.advantage__item:nth-child(5):hover{
+  transform: scale(110%) translateY(70px);
+  transition: all .3s ease-in-out;
+}
+
 .advantage__item_1{
   background-image: url("../img/advantage/1.jpg");
 }
