@@ -66,10 +66,10 @@
         <button class="banner__btn">Забронировать</button>
       </div>
 
-      <a href="#" class="banner__arrow"></a>
+      <a href="#advantage" class="banner__arrow"></a>
     </section>
 
-    <section class="advantage">
+    <section id="advantage" class="advantage">
       <div class="container advantage__container">
         <h2 class="advantage__title title">У нас есть всё для классного отдыха с друзьями</h2>
 
@@ -126,21 +126,26 @@
           <fieldset class="book__fieldset">
             <legend class="book__subtitle">Выбери зал</legend>
             <div class="book__fieldset-container">
-              <label class="book__label-hall">
-                <input class="book__input-hall" type="radio" name="hall" value="80's vibes">80's vibes
+              <input class="book__input-hall" id="80svibes" type="radio" name="hall" value="80's vibes">
+              <label class="book__label-hall" for="80svibes">
+                80's vibes
               </label>
 
-              <label class="book__label-hall">
-                <input class="book__input-hall" type="radio" name="hall" value="star wars">star wars
+              <input class="book__input-hall" id="starwars" type="radio" name="hall" value="star wars">
+              <label class="book__label-hall" for="starwars">
+                star wars
               </label>
 
-              <label class="book__label-hall">
-                <input class="book__input-hall" type="radio" name="hall" value="wild west">wild west
+              <input class="book__input-hall" id="wildwest" type="radio" name="hall" value="wild west">
+              <label class="book__label-hall" for="wildwest">
+                wild west
               </label>
 
-              <label class="book__label-hall">
-                <input class="book__input-hall" type="radio" name="hall" value="neon style">neon style
+              <input class="book__input-hall" id="neonstyle" type="radio" name="hall" value="neon style">
+              <label class="book__label-hall" for ="neonstyle" >
+                neon style
               </label>
+
             </div>
           </fieldset>
 
