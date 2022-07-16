@@ -219,6 +219,8 @@
   padding: 16px 50px;
   box-shadow: 0 5px 30px #fff;
   border: none;
+  border: 3px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .book__btn:hover{
